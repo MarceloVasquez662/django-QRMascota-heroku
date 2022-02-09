@@ -1,0 +1,1 @@
+web: gunicorn QRAnimal.wsgi --log-file -
