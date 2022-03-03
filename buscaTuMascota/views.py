@@ -76,4 +76,4 @@ def crearQR(textoqr):
     codigoqr.add_data(textoqr)
     codigoqr.make(fit=True)
     qr = codigoqr.make_image(fill="black", back_color="white")
-    qr.save("static/qr.png")
+    qr.save("/static/qr.png")
